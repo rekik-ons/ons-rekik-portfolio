@@ -1,3 +1,4 @@
+
 {
   "name": "ons-rekik-portfolio",
   "private": true,
@@ -9,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "lucide-react": "^0.468.0",
     "react": "latest",
-    "react-dom": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
     "vite": "latest"
   }
 }
