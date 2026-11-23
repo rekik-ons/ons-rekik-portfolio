@@ -148,7 +148,7 @@ const skillGroups = [
 const skillFr = { 'Machine Learning': 'Apprentissage automatique', 'Data Analysis': 'Analyse de données', 'Image Processing': 'Traitement d’images', 'Human Pose Estimation': 'Estimation de pose humaine', 'Neural Networks': 'Réseaux de neurones', 'Pose Landmarks': 'Points de repère corporels', 'Anomaly Detection': 'Détection d’anomalies', 'Data Visualization': 'Visualisation de données' };
 const skillEn = { 'Virtualisation': 'Virtualization', 'Agents IA & Chatbots': 'AI Agents & Chatbots' };
 const toolsList = ['Git','GitHub','Linux','VS Code','Eclipse','Google Colab','OpenCV','MediaPipe','XAMPP','Swagger','Postman','Docker'];
-const toolIcons = ['⌘','⌁','▰','◫','◇','◉','◈','⌖','✳','▣','◬','◎'];
+const toolIcons = ['⌘','⌁','▰','◫','◇','◉','◈','⌖','⌬','▣','◬','◎'];
 
 // Nombre de compétences uniques (calculé automatiquement)
 const SKILLS_COUNT = new Set(skillGroups.flatMap(g => g.children.flatMap(c => c.skills))).size;
