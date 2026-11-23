@@ -379,7 +379,7 @@ const languagesData = [
 
 const certifications = [
 
-  { id: 'cisco-ai', title: { fr: 'AI Fundamentals : les bases pour comprendre l’IA', en: 'AI Fundamentals: Foundations for Understanding AI' }, org: 'Cisco Networking Academy', date: { fr: 'Août 2026', en: 'August 2026' }, sort: '2026-08', url: '/AI_Fundamentals-_Foundations_for_Understanding_AI_certificate_ons-rekik4182-istic-ucar-tn_330291c4-14b1-4449-9cb2-83d6f0b3ac37' },
+  { id: 'cisco-ai', title: { fr: 'AI Fundamentals : les bases pour comprendre l’IA', en: 'AI Fundamentals: Foundations for Understanding AI' }, org: 'Cisco Networking Academy', date: { fr: 'Août 2026', en: 'August 2026' }, sort: '2026-08', url: '/AI_Fundamentals-_Foundations_for_Understanding_AI_certificate_ons-rekik4182-istic-ucar-tn_330291c4-14b1-4449-9cb2-83d6f0b3ac37.pdf' },
 
   { id: 'scrum', title: { fr: 'Management de projet : Option Agile Scrum', en: 'Project Management: Agile Scrum Option' }, org: '4C-ISTIC', date: { fr: 'Février 2026', en: 'February 2026' }, sort: '2026-02', url: '/certificat_management_de_projet_agile_scrum.pdf' }
 
