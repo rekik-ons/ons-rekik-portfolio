@@ -322,3 +322,19 @@ a.language-arrow:hover{color:var(--accent)}
 .translate-btn{gap:7px;padding:7px 12px;white-space:nowrap}
 .translate-btn span{font:500 9px 'DM Mono',monospace;letter-spacing:.06em}
 @media(max-width:560px){.translate-btn span{display:none}.translate-btn{padding:7px 9px}}
+
+
+/*Donut de langages*/
+.donut-block { margin: 22px 0 8px; padding-top: 18px; border-top: 1px solid rgba(128,128,128,.2); }
+.donut-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.donut-body { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+.donut-svg { width: 160px; height: 160px; flex: none; color: inherit; }
+.donut-svg circle { transition: stroke-dasharray .6s ease; }
+.donut-total { font-size: 34px; font-weight: 700; fill: currentColor; }
+.donut-label { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; fill: currentColor; opacity: .6; }
+.donut-legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; flex: 1; min-width: 140px; }
+.donut-legend li { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+.donut-legend i { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.donut-legend span { flex: 1; }
+.donut-legend b { font-weight: 600; opacity: .8; }
+.donut-empty { opacity: .6; font-size: 14px; }
